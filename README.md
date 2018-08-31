@@ -29,6 +29,8 @@ In doing so, it also assigns proper variable names to the dataset using the feat
 Subsequently, only variables measuring a mean or standard deviation are extracted from the dataset as required by the assignment. Please refer to CodeBook.md for details on my choice of variables.  
 Finally, as per the instructions of the assignment, a new dataset, *average_analysis* is created and written into a *.txt* file called "average_analysis.txt". The dataset is tidy as per the requirements of tidy data by Hadley Wickham (see CodeBook.md for details).  
 *average_analysis.txt* includes the average value of each variable for each subject and each activity. Once more, please refere to CodeBook.md for details.  
+The script takes quite a while to run, because the datasets are so big (and because it may not be written in the most efficient way).  
+For even more detailed information on what *run_analysis.R* does, please consult my comments in the script. 
 
 
 ## How to Read *average_analysis.txt* into R:
