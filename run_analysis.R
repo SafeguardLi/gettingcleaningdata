@@ -3,6 +3,7 @@
 #into a tidy format and finally creates a *.txt file containing the averages
 #for all variables/features of the study for each subject and each activity.
 
+
 run_analysis <- function(directory = getwd()) {
   
   setwd(directory) #Workig directory is set to the specified directory to make
