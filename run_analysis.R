@@ -81,6 +81,7 @@ run_analysis <- function(directory = getwd()) {
   }
   names(result) <- names(meanstddata_sorted)
   
-  write.table(result, "./average_analysis.txt") #Stores the resulting dataset
+  write.table(result, "./average_analysis.txt",
+              row.name = FALSE) #Stores the resulting dataset
   
 }
