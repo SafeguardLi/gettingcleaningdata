@@ -23,7 +23,13 @@ Evidently, I have chosen the wide data format to represent the dataset. Although
 
 ## Variables
 
-As required by the assignment (step 2), from the original set of 563 variables/features I selected all those variables that measure a mean or standard deviation of a feature vector. Specifically, I included all variables that include "mean" or "std" in their name. This includes weighted averages of frequency components (*meanFreq()*) and the additional vectors obtained by averaging the signals in a signal window sample (the 7 *angle()* variables).  
+**As per the original information provided by the authors of the study:**  
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.  
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag).  
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals).
+
+**As required by the assignment (step 2):**  
+From the original set of 561 variables/features I selected all those variables that measure a mean or standard deviation of a feature vector. Specifically, I included all variables that include "mean" or "std" in their name. This includes weighted averages of frequency components (*meanFreq()*) and the additional vectors obtained by averaging the signals in a signal window sample (the 7 *angle()* variables).  
 In addition, I added a variable *subject* denoting the subject of each observation (one out of thirty) and an *acitivity* variable denoting the activity of each observation (one out of six).  
 Therefore, there are 88 variables in total in the dataset *average_analysis.txt*. A complete list of these variables can be found at the bottom of this document.  
 The variables received proper names as found in the features-list of the original dataset, denoting exactly what was measured (adhering to the first of the three principles of tidy data).
