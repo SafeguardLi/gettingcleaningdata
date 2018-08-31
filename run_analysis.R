@@ -11,7 +11,8 @@ run_analysis <- function(directory = getwd()) {
   errormessage <- "Please make sure that the directory 'UCI HAR Dataset' exists
   in your working directory or use the parent directory of the
   'UCI HAR Dataset'-directory as input to run_analysis()!
-  Example: run_analysis('C:/Users/MyUser/Courseradata/workdir')"
+  Example: run_analysis('C:/Users/MyUser/Courseradata/workdir')
+  For further questions please consult the README!"
   if(!dir.exists("UCI HAR Dataset")) stop(errormessage)
   
   features <- read.table("./UCI HAR Dataset/features.txt", header = FALSE,
