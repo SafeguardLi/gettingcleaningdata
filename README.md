@@ -31,7 +31,7 @@ Finally, as per the instructions of the assignment, a new dataset, *average_anal
 
 ## How to Read *average_analysis.txt* into R:
 
-As recommended by [David Hood](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/) in his compendium of useful information about the course project, I now provide instructions for reading *average_analysis.txt* into R:
+As recommended by David Hood in his [compendium of useful information](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/) about the course project, I now provide instructions for reading *average_analysis.txt* into R:
 
 Before running the following code, please either download *average_analysis.txt* from my course project submission into your working directory, or (ideally) run *run_analysis.R*.
 
@@ -43,7 +43,7 @@ To read *average_analysis.txt* into R, please use the following code:
  } else {stop("Please make sure that  
                 'average_analysis.txt' exists in your working directory.")}
 
-It is especially important that you use the **header = TRUE** and **check.names = FALSE** arguments.  
+It is **absolutely crucial** that you use the **header = TRUE** and **check.names = FALSE** arguments.  
 If you do not read *average_analysis.txt* into R as described above, you **will not** be able to view the dataset as intended. Therefore, if you are a peer reviewer for the *Getting and Cleaning Data* course,  I ask you to **follow these instructions** so that you can grade my assignment properly.
 
 If you are a peer reviewer, I humbly **thank you** for grading my assignment. I hope it was satisfactory.
