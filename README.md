@@ -20,3 +20,10 @@ If you choose to run the script from a different folder, you should run it like 
 > run_analysis("PATH TO PARENT DIRECTORY OF UCI HAR Dataset")
 
 
+## What *run_analysis.R* Does:
+
+*run_analysis.R* takes the test and train-data from the *UCI HAR dataset* and combines it into one big dataset.
+In doing so, it also assigns proper variable names to the dataset using the features of the study (see CodeBook.md for details) and adds the columns *subject* and *activity* that specify the observation of each measurement.
+Subsequently, only variables measuring a mean or standard deviation are extracted from the dataset as required by the assignment. Please refer to CodeBook.md for details on my choice of variables.
+Finally, as per the instructions of the assignment, a new dataset, *average_analysis* is created and written into a *.txt* file called "average_analysis.txt".
+*average_analysis.txt* includes the average value of each variable for each subject and each activity. Once more, please refere to CodeBook.md for details.
