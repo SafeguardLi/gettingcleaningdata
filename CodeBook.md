@@ -55,6 +55,8 @@ Activities were properly identified as *WALKING*, *WALKING_UPSTAIRS*, *WALKING_D
 
 Hood, D. (2015). Getting and Cleaning the Assignment. Retrieved from https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/.
 
+Reyes-Ortiz, J. L.; Anguita, D.; Ghio, A.; Oneto, L.; and Parra, X. (2012). Human Activity Recognition Using Smartphones Data Set. Retrieved from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. 
+
 Wickham, H. (2014). Tidy data. Journal of Statistical Software, 59(10), 1-23.
 
 
