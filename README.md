@@ -27,3 +27,10 @@ In doing so, it also assigns proper variable names to the dataset using the feat
 Subsequently, only variables measuring a mean or standard deviation are extracted from the dataset as required by the assignment. Please refer to CodeBook.md for details on my choice of variables.
 Finally, as per the instructions of the assignment, a new dataset, *average_analysis* is created and written into a *.txt* file called "average_analysis.txt".
 *average_analysis.txt* includes the average value of each variable for each subject and each activity. Once more, please refere to CodeBook.md for details.
+
+
+## How to Read *average_analysis.txt* into R:
+
+As recommended by David Hood in his compendium of useful information about the course project, I now provide instructions for reading *average_analysis.txt* into R:
+
+Before running the following code, please either download *average_analysis.txt* from my course project submission into your working directory, or (ideally) run *run_analysis.R*.
