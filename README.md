@@ -34,3 +34,11 @@ Finally, as per the instructions of the assignment, a new dataset, *average_anal
 As recommended by David Hood in his compendium of useful information about the course project, I now provide instructions for reading *average_analysis.txt* into R:
 
 Before running the following code, please either download *average_analysis.txt* from my course project submission into your working directory, or (ideally) run *run_analysis.R*.
+
+To read *average_analysis.txt* into R, please use the following code:
+
+> if(file.exists("average_analysis.txt")) {
++     average_analysis <- read.table("./average_analysis.txt", header=TRUE,
++                                    stringsAsFactors = FALSE, check.names=FALSE)
++ } else {stop("Please make sure that
++                'average_analysis.txt' exists in your working directory.")}
