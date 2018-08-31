@@ -44,6 +44,7 @@ To read *average_analysis.txt* into R, please use the following code:
 > if(file.exists("average_analysis.txt")) {  
      average_analysis <- read.table("./average_analysis.txt", header = TRUE,  
                                     stringsAsFactors = FALSE, check.names = FALSE)  
+     View(average_analysis)  
  } else {stop("Please make sure that  
                 'average_analysis.txt' exists in your working directory.")}
 
