@@ -14,9 +14,11 @@ Here's an example of the ideal situation:
 [1] "run_analysis.R"       "UCI HAR Dataset"
 
 In this case, you only need to run "run_analysis.R" like this:
+> source("run_analysis")  
 > run_analysis()
 
 If you choose to run the script from a different folder, you should run it like this:
+> source("run_analysis")  
 > run_analysis("PATH TO PARENT DIRECTORY OF UCI HAR Dataset")
 
 
