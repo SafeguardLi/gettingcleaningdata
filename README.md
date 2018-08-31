@@ -13,11 +13,11 @@ Here's an example of the ideal situation:
 > list.files()  
 [1] "run_analysis.R"       "UCI HAR Dataset"
 
-In this case, you only need to run "run_analysis.R" like this:
+**In this case**, you only need to run "run_analysis.R" like this:
 > source("run_analysis.R")  
 > run_analysis()
 
-If you choose to run the script from a different folder, you should run it like this:
+If you choose to run the script **from a different folder**, you should run it like this:
 > source("run_analysis.R")  
 > run_analysis("PATH TO PARENT DIRECTORY OF UCI HAR Dataset")
 
@@ -28,7 +28,7 @@ If you choose to run the script from a different folder, you should run it like 
 In doing so, it also assigns proper variable names to the dataset using the features of the study (see CodeBook.md for details) and adds the columns *subject* and *activity* that specify the observation of each measurement.  
 Subsequently, only variables measuring a mean or standard deviation are extracted from the dataset as required by the assignment. Please refer to CodeBook.md for details on my choice of variables.  
 Finally, as per the instructions of the assignment, a new dataset, *average_analysis* is created and written into a *.txt* file called "average_analysis.txt". The dataset is tidy as per the requirements of tidy data by Hadley Wickham (see CodeBook.md for details).  
-*average_analysis.txt* includes the average value of each variable for each subject and each activity. Once more, please refere to CodeBook.md for details.  
+*average_analysis.txt* includes the average value of each variable for each subject and each activity. Once more, please refer to CodeBook.md for details.  
 The script takes quite a while to run, because the datasets are so big (and because it may not be coded in the most efficient way).  
 For even more detailed information on what *run_analysis.R* does, please consult my comments in the script. 
 
@@ -37,7 +37,7 @@ For even more detailed information on what *run_analysis.R* does, please consult
 
 As recommended by David Hood in his [compendium of useful information](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/) about the course project, I now provide instructions for reading *average_analysis.txt* into R:
 
-Before running the following code, please either download *average_analysis.txt* from my course project submission into your working directory, or (ideally) run *run_analysis.R*.
+**Before** running the following code, please either download *average_analysis.txt* from my course project submission into your working directory, or (ideally) run *run_analysis.R*.
 
 To read *average_analysis.txt* into R, please use the following code:
 
